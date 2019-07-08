@@ -1,0 +1,21 @@
+﻿@model Cat
+
+<form asp-action="Add" asp-controller="CatPage">
+    <div>
+        <div>
+            <label asp-for="Name">Pet Name:</label>
+            <input asp-for="Name" />
+        </div>
+        <div>
+            <label asp-for="Breed">Pet Breed:</label>
+            <input asp-for="Breed" />
+        </div>
+        <div>
+            <label asp-for="Birthday">Pet Breed:</label>
+            <input asp-for="Birthday" />
+        </div>
+        
+        <input type="submit" value="Добавить" />
+
+    </div>
+</form>
